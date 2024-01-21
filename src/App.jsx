@@ -1,8 +1,10 @@
 
+import { useEffect } from 'react'
 import './App.css'
 import { useState } from 'react'
 
 function App() {
+  // useState
   const [userData,setUserData] = useState({
     name:"",
     phno:"",
@@ -10,6 +12,16 @@ function App() {
     website:"",
     submit:false
   })
+
+  //UseEffect
+  useEffect(()=>{
+    console.log("I am a Visiting Card Generator")
+    if (userData.submit) {
+      console.log("User Data Submitted:", userData);
+    }
+  },[userData.submit])
+
+
   return (
     <>
       <div className="header">
