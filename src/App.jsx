@@ -2,6 +2,7 @@
 import { useEffect } from 'react'
 import './App.css'
 import { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 function App() {
   // useState
@@ -62,6 +63,10 @@ function App() {
             )
           }
       </div>
+      <div>
+        <Link className="about" to="/about">About Us</Link>
+      </div>
+      
     </>
   )
 }
