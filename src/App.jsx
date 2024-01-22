@@ -63,8 +63,15 @@ function App() {
             )
           }
       </div>
+      
       <div>
-        <Link className="about" to="/about">About Us</Link>
+        <Link className="foot" to="/home">Home</Link>
+      </div>
+      <div>
+        <Link className="foot" to="/about">About Me</Link>
+      </div>
+      <div>
+        <Link className="foot" to="/contact">Contact Me</Link>
       </div>
       
     </>
