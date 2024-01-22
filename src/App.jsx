@@ -2,6 +2,7 @@
 import { useEffect } from 'react'
 import './App.css'
 import { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 function App() {
   // useState
@@ -62,6 +63,17 @@ function App() {
             )
           }
       </div>
+      
+      <div>
+        <Link className="foot" to="/home">Home</Link>
+      </div>
+      <div>
+        <Link className="foot" to="/about">About Me</Link>
+      </div>
+      <div>
+        <Link className="foot" to="/contact">Contact Me</Link>
+      </div>
+      
     </>
   )
 }

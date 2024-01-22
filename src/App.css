@@ -40,3 +40,8 @@ input[type="text"]{
   color: fuchsia;
 }
 
+.foot{
+  color: fuchsia;
+  display: flex;
+  justify-content: center;
+}
